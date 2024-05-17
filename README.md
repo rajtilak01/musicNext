@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Music School UI
+
+This project is a user interface for a music school built using Next.js with TypeScript and Acertinity UI.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+ 
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This project serves as the front end for a music school application. It provides various features for managing students, courses, schedules, and other aspects of the school.
+
+ 
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Before running this project locally, make sure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js
+- npm or yarn
+- 
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   git clone https://github.com/rajtilak01/musicNext.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to the project directory
+   cd musicnext
+3. install dependencies
+    npm install
+    # or
+    yarn install
 
-## Learn More
+Usage- To start the development server, run:
+   npm run dev
+    # or
+    yarn dev
 
-To learn more about Next.js, take a look at the following resources:
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Fork the repository.
+  Create a new branch (git checkout -b feature/my-feature).
+  Make your changes.
+  Commit your changes (git commit -am 'Add new feature').
+  Push to the branch (git push origin feature/my-feature).
+  Create a new Pull Request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License-
+This project is licensed under the MIT License - see the LICENSE file for details.
